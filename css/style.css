@@ -1,0 +1,132 @@
+/*landing page specific css*/
+h1, h3, h4 {
+	font-family: 'Orbitron', sans-serif;
+} 
+
+p, li, a {
+	font-family: 'Lora', serif;
+}
+
+.indent {
+	text-indent: 50px;
+}
+
+div[class^="col-sm"] {
+	border: solid red;
+	margin: 10px;
+	border-radius: 2%;
+}
+
+#logo {
+	margin-left: 50px;
+	border-radius: 5%;
+	height: 100px;
+}
+
+.jumbo {
+	border-radius: 2%;
+	background-color: rgb(255,0,0);
+	background-color: rgba(255,0,0,0.7);
+	width: 380px;
+	padding:25px;
+}
+
+#jumbo1 {
+	background-image:url("../img/keyboardwithcoding.jpg");
+	background-size: 100% 100%;
+}
+
+/*graduates page specific css*/
+.media {
+	margin:10px 0px;
+}
+
+iframe {
+	margin-top:15px;
+	margin-bottom:15px;
+	border:2px solid red;
+}
+
+video {
+	border:2px solid red;
+	padding:10px;
+}
+
+
+.card-deck {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.suggest {
+	border:solid red;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.lh {
+	margin-bottom:0;
+}
+
+/*lessons page specific css*/
+
+.classes, .internal {
+	border-radius: 1%;
+	margin-left: 100px;
+}
+
+#title{
+	background-image:url("../img/keyboard.jpg");
+	background-size: 100% 100%;
+}
+
+.highlight {
+	background-color: #ccff00;
+}
+
+#video{
+	margin-top:10px;
+}
+
+/* Style all social media icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect  */
+a:hover, a:visited, a:active, a:link {
+	text-decoration: none;
+	color:rgb(255,0,0);
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Sets a specific color for each social media icon*/
+
+/* Facebook */
+.fa-facebook {
+   background: #3B5998;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+}
+/* instagram */
+.fa-instagram {
+    background:#013C5A;
+}
+/*google plus*/
+.fa-google-plus{
+  background:	#E84C3D;
+}
+
+.fa:link, .fa:visited, .fa:active, .fa:hover {
+	color:#fff;
+}
